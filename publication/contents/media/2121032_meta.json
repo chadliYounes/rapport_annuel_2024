@@ -1,0 +1,39 @@
+{
+  "id" : 2121032,
+  "type" : 5,
+  "src" : "$media$2121032.mp4",
+  "icon" : "$media$2121032/cover.jpg",
+  "label" : "Itw de Gabrielle Bourdillat.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:38:58",
+  "lastUpdateDate" : "2024-06-25 14:38:59",
+  "beginDate" : "2024-06-25 14:38:58",
+  "version" : 1,
+  "name" : "itw-de-gabrielle-bourdillat.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121032.mp4",
+  "originalFileSize" : 19286548,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121032" : "p_2121032"
+  },
+  "resolutions" : {
+    "p_2121032" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1301966,
+  "duration" : 117.981,
+  "resolution" : "720x720",
+  "status" : "LIVE"
+}

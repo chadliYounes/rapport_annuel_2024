@@ -1,0 +1,13 @@
+<div class="menu-item--custom-wrapper" data-menu="{{name}}" data-tooltip="{{label}}">
+	{{exists data.attributes.type}}
+		{{if isInBurger}}
+			<div class="menu-item--custom-wrapper-burger">
+				<span data-section="title">{{label}}</span>
+			</div>
+		{{else}}
+			<div class="menu-item--custom-wrapper-top" style="height: 100%">
+				<img height="100%" src="{{w.Utils.resolveVariable(data.attributes.image)}}"/>
+			</div>
+		{{/if}}
+    {{/exists}}
+</div>

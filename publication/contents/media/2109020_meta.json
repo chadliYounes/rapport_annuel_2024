@@ -1,0 +1,36 @@
+{
+  "id" : 2109020,
+  "type" : 2,
+  "src" : "$media$2109020.pdf",
+  "icon" : "$media$2109020/cover.jpg",
+  "label" : "glossaire.pdf",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 09:10:29",
+  "lastUpdateDate" : "2024-06-11 09:10:29",
+  "beginDate" : "2024-06-11 09:10:29",
+  "version" : 0,
+  "name" : "glossaire.pdf",
+  "parent" : 2108788,
+  "originalFile" : "2109020.pdf",
+  "originalFileSize" : 442481,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2109020" : "p_2109020"
+  },
+  "resolutions" : {
+    "p_2109020" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 925,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "fileType" : "PDF"
+}

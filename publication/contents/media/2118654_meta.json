@@ -1,0 +1,54 @@
+{
+  "id" : 2118654,
+  "type" : 4,
+  "src" : "$media$2118654.jpg",
+  "icon" : "$media$2118654.jpg",
+  "label" : "Chapter3.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-21 13:19:25",
+  "lastUpdateDate" : "2024-06-21 13:19:25",
+  "beginDate" : "2024-06-21 13:19:25",
+  "version" : 0,
+  "name" : "chapter3.jpg",
+  "parent" : 2117910,
+  "originalFile" : "2118654.jpg",
+  "originalFileSize" : 637816,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2118654" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "resolution" : "2000x1125"
+}

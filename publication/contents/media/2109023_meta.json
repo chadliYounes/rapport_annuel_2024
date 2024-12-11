@@ -1,0 +1,54 @@
+{
+  "id" : 2109023,
+  "type" : 4,
+  "src" : "$media$2109023.png",
+  "icon" : "$media$2109023.png",
+  "label" : "empty.png",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 09:13:09",
+  "lastUpdateDate" : "2024-06-11 09:13:10",
+  "beginDate" : "2024-06-11 09:13:09",
+  "version" : 1,
+  "name" : "empty.png",
+  "parent" : 2109022,
+  "originalFile" : "2109023.png",
+  "originalFileSize" : 924,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2109023" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "resolution" : "1x1"
+}

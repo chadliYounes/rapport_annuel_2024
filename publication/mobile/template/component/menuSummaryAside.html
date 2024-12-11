@@ -1,0 +1,21 @@
+<div class="menu-summary-aside">
+    {{exists summaryList}}
+    <div class="summary-content-aside">
+        <div class="summary-aside-label">{{localePlugin("menu_summary")}}</div>
+        <div class="popup-switch-list-aside">
+            <div class="popup-switch-item-aside">{{localePlugin('menu_summary')}}</div>
+            <div class="popup-switch-item-aside inactive"></div>
+            <div class="popup-switch-item-aside inactive"></div>
+        </div>
+
+        <ul class="summary-content-aside__list">
+            <li>
+                {{each(i,page) summaryList}}
+                    {{templatePlugin( 'summaryAsideItem', { "page": page }) }}
+                {{/each}}
+            </li>
+        </ul>
+
+    </div>
+    {{/exists}}
+</div>

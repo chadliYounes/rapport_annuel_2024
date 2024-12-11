@@ -1,0 +1,39 @@
+{
+  "id" : 2121020,
+  "type" : 5,
+  "src" : "$media$2121020.mp4",
+  "icon" : "$media$2121020/cover.jpg",
+  "label" : "Motion design du SPDA.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:25:02",
+  "lastUpdateDate" : "2024-06-25 14:25:03",
+  "beginDate" : "2024-06-25 14:25:02",
+  "version" : 1,
+  "name" : "motion-design-du-spda.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121020.mp4",
+  "originalFileSize" : 15692364,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121020" : "p_2121020"
+  },
+  "resolutions" : {
+    "p_2121020" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1047297,
+  "duration" : 119.63,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

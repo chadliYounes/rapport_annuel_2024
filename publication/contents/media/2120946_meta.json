@@ -1,0 +1,39 @@
+{
+  "id" : 2120946,
+  "type" : 5,
+  "src" : "$media$2120946.mp4",
+  "icon" : "$media$2120946/cover.jpg",
+  "label" : "Témoignage ergothérapeute sur les aides techniques.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:06:40",
+  "lastUpdateDate" : "2024-06-25 14:06:41",
+  "beginDate" : "2024-06-25 14:06:40",
+  "version" : 1,
+  "name" : "temoignage-ergotherapeute-sur-les-aides-techniques.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2120946.mp4",
+  "originalFileSize" : 26139259,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2120946" : "p_2120946"
+  },
+  "resolutions" : {
+    "p_2120946" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1106409,
+  "duration" : 188.732,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

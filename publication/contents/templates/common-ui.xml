@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+  <menu_config>
+    <mode name="default">
+      <menu name="menu-left">
+        <element name="menu"/>
+      </menu>
+      <menu name="menu-center">
+        <element name="logo">
+          <file href="https://www.cnsa.fr/" url="${media}2108999.png"/>
+        </element>
+      </menu>
+      <menu name="menu-burger">
+        <element name="documentback"/>
+        <element name="share_btn"/>
+        <element name="thumbnails_btn"/>
+        <element name="pdf_btn"/>
+        <element name="fullscreen_btn"/>
+        <element name="search_btn"/>
+      </menu>
+      <menu name="menu-right"/>
+</mode>
+    <mode name="desktop">
+      
+      
+      
+      <panel_view_control enable="true">
+        <element enable="true" name="page_range"/>
+        <element enable="true" name="zoom_less"/>
+        <element enable="true" name="zoom_range"/>
+        <element enable="true" name="zoom_more"/>
+        <element enable="true" name="fullscreen_toggle"/>
+        <element enable="true" name="zoom_reset"/>
+      </panel_view_control>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<menu name="menu-burger">
+<element name="documentback"/>
+<element name="share_btn"/>
+<element name="thumbnails_btn"/>
+<element name="pdf_btn"/>
+<element name="fullscreen_btn"/>
+<element name="search_btn"/>
+</menu>
+<menu name="menu-center">
+<element name="chapters"/>
+</menu>
+<menu name="menu-left">
+<element name="logo">
+<file href="https://www.cnsa.fr/" url="${media}2108999.png"/>
+</element>
+</menu>
+<menu name="menu-right">
+<element image="${media}2105057.webp" label="Sommaire " name="custom" param="5" target="openSameTab" type="goToPage"/>
+<element image="${media}2105056.webp" label="Glossaire" name="custom" param="${media}2109020.pdf" target="popup" type="driveAsset"/>
+<element image="${media}2105098.webp" label="Télécharger le PDF  " name="custom" param="https://fr.zone-secure.net/138986/2125131.pdf" target="openNewTab" type="url"/>
+</menu>
+</mode>
+    <mode name="tablet">
+		
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<menu name="menu-burger">
+<element image="${media}2109023.png" label="RENFORCER" name="custom" param="NIApi.page.open(1);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+<element image="${media}2109023.png" label="INFORMER" name="custom" param="NIApi.page.open(2);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+<element image="${media}2109023.png" label="SOUTENIR" name="custom" param="NIApi.page.open(3);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+<element image="${media}2109023.png" label="FINANCER" name="custom" param="NIApi.page.open(4);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+</menu>
+<menu name="menu-center">
+<element name="logo">
+<file href="https://www.cnsa.fr/" url="${media}2108999.png"/>
+</element>
+</menu>
+<menu name="menu-left">
+<element name="menu"/>
+</menu>
+<menu name="menu-right">
+<element image="${media}2105057.webp" label="Sommaire " name="custom" param="5" target="openSameTab" type="goToPage"/>
+<element image="${media}2105056.webp" label="Glossaire" name="custom" param="${media}2109020.pdf" target="popup" type="driveAsset"/>
+<element image="${media}2105098.webp" label="Télécharger le PDF  " name="custom" param="https://fr.zone-secure.net/138986/2125131.pdf" target="openNewTab" type="url"/>
+</menu>
+</mode>
+    <mode name="mobile">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<menu name="menu-burger">
+<element image="${media}2105056.webp" label="Glossaire" name="custom" param="${media}2109020.pdf" target="popup" type="driveAsset"/>
+<element image="${media}2109023.png" label="RENFORCER" name="custom" param="NIApi.page.open(1);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+<element image="${media}2109023.png" label="INFORMER" name="custom" param="NIApi.page.open(2);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+<element image="${media}2109023.png" label="SOUTENIR" name="custom" param="NIApi.page.open(3);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+<element image="${media}2109023.png" label="FINANCER" name="custom" param="NIApi.page.open(4);NIApi.menu.close();" target="openSameTab" type="javascript"/>
+</menu>
+<menu name="menu-center">
+<element name="logo">
+<file href="https://www.cnsa.fr/" url="${media}2108999.png"/>
+</element>
+<element image="${media}2105057.webp" label="Sommaire " name="custom" param="5" target="openSameTab" type="goToPage"/>
+</menu>
+<menu name="menu-left">
+<element name="menu"/>
+</menu>
+<menu name="menu-right">
+<element image="${media}2105098.webp" label="Télécharger le PDF  " name="custom" param="https://fr.zone-secure.net/138986/2125131.pdf" target="openNewTab" type="url"/>
+</menu>
+</mode>
+  </menu_config>
+  <modules>
+    <mode name="default">
+      <module asynchronous="true" enable="true" name="CustomBrand" parameters="{&quot;url&quot;:&quot;https://webpublication.fr&quot;,&quot;text&quot;:&quot;WebPublication&quot;,&quot;style&quot;:{&quot;left&quot;:&quot;auto&quot;,&quot;right&quot;:&quot;10px&quot;,&quot;top&quot;:&quot;auto&quot;,&quot;bottom&quot;:&quot;10px&quot;,&quot;fontSize&quot;:&quot;9px&quot;,&quot;color&quot;:&quot;rgba(0,0,0,1)&quot;}}" path="./publication/mobile/modules/customBrand" userAgentFilter="desktop" version="1.0.0">
+        <![CDATA[<a href="{{url}}" target="_blank">{{text}}</a>]]>
+      </module>
+      <module asynchronous="true" enable="true" name="adminApi" parameters="{}" path="./publication/mobile/modules/adminApi" userAgentFilter="backofficeMode" version="1.0.0">
+      </module>
+      <module asynchronous="true" enable="true" name="lightbox-welcome" parameters="{           matchHash: 'welcome',           param: 'http://webpublication.fr/',           id: 'webpublication.fr',           theme: 'theater',           animation: 'none',           header: 'none'         }" path="./publication/mobile/modules/routerLightbox" userAgentFilter="tab|mobile|desktop|phablet" version="1.0.0">
+      </module>
+    </mode>
+  </modules>
+  <template>
+    <asset name="config" url="${template}config.xml"/>
+    <asset name="interface" url="${template}ui.xml"/>
+    <asset name="css" url="${template}styles.css"/>
+    <asset name="css_html5" url="${template}styles_flash.css"/>
+    <asset name="locale" url="${locale_folder}messages_${locale}.xml"/>
+	<asset name="localeHtml" url="${template}locale/mobile/messages_${locale}.xml"/>
+<asset name="locale" url="${template}messages_${locale}.xml"/>
+  <asset name="epub-idGeneratedStyles" url="${epub_folder}css/css.css"/>
+<asset name="custom_javascript" url="${epub_folder}script/customJavascript.js"/>
+<!-- <asset name="custom_css" url="${template}custom.css"/> -->
+</template>
+  <services>
+    <service id="pdfmerge" url="${manager_host}/services/rest/playerGateway/pdfmerge"/>
+    <service id="sendmail" url="${manager_host}/services/rest/playerGateway/sendmail"/>
+  </services>
+  <configs>
+    <viewer>
+      <mode name="desktop">
+        <zoom clicks="2" max_scale="2"/>
+        <page margin="0 0 0 0" max_height="auto" max_width="auto" swipe="true" transition_time="0.2"/>
+      </mode>
+      <mode name="default">
+        <popup default_mode="fullscreen" filters="*"/>
+      </mode>
+    </viewer>
+    <!-- <page_layout value="" /> -->
+    <page_layout_html value="best"/>
+    <deep_linking value="true"/>
+    <cookie enabled="false"/>
+  <page_layout first_frame="1" value="best"/>
+
+
+
+
+
+
+<chapters>
+<element color="#000000" label="RENFORCER" page="6" size="15" type="tab" underline_color="#540abd" underline_size="15"/>
+<element size="35" type="space"/>
+<element color="#000000" label="INFORMER" page="15" size="15" type="tab" underline_color="#540abd" underline_size="15"/>
+<element size="35" type="space"/>
+<element color="#000000" label="SOUTENIR" page="28" size="15" type="tab" underline_color="#540abd" underline_size="15"/>
+<element size="35" type="space"/>
+<element color="#000000" label="FINANCER" page="43" size="15" type="tab" underline_color="#540abd" underline_size="15"/>
+</chapters>
+</configs>
+</root>

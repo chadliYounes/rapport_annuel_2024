@@ -1,0 +1,54 @@
+{
+  "id" : 2120930,
+  "type" : 4,
+  "src" : "$media$2120930.jpg",
+  "icon" : "$media$2120930.jpg",
+  "label" : "7_Axes.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 13:59:28",
+  "lastUpdateDate" : "2024-06-25 13:59:55",
+  "beginDate" : "2024-06-25 13:59:28",
+  "version" : 2,
+  "name" : "7_axes.jpg",
+  "parent" : 2120929,
+  "originalFile" : "2120930.jpg",
+  "originalFileSize" : 368126,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2120930" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "resolution" : "1534x1599"
+}

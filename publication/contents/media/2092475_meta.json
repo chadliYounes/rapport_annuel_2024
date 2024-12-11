@@ -1,0 +1,39 @@
+{
+  "id" : 2092475,
+  "type" : 5,
+  "src" : "$media$2092475.mp4",
+  "icon" : "$media$2092475/cover.jpg",
+  "label" : "1035-142621331.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 06:25:36",
+  "lastUpdateDate" : "2024-06-11 06:25:36",
+  "beginDate" : "2024-06-11 06:25:36",
+  "version" : 1,
+  "name" : "1035-142621331.mp4",
+  "parent" : 2108788,
+  "originalFile" : "2092475.mp4",
+  "originalFileSize" : 5142140,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2092475" : "p_2092475"
+  },
+  "resolutions" : {
+    "p_2092475" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1080,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 2606662,
+  "duration" : 15.6,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

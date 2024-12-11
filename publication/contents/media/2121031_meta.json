@@ -1,0 +1,39 @@
+{
+  "id" : 2121031,
+  "type" : 5,
+  "src" : "$media$2121031.mp4",
+  "icon" : "$media$2121031/cover.jpg",
+  "label" : "Interview de Virginie Magnant au CESE.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:34:45",
+  "lastUpdateDate" : "2024-06-25 14:34:46",
+  "beginDate" : "2024-06-25 14:34:45",
+  "version" : 1,
+  "name" : "interview-de-virginie-magnant-au-cese.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121031.mp4",
+  "originalFileSize" : 24205235,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121031" : "p_2121031"
+  },
+  "resolutions" : {
+    "p_2121031" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1238906,
+  "duration" : 155.899,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

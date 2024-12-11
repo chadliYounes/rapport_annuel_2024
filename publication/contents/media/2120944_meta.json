@@ -1,0 +1,54 @@
+{
+  "id" : 2120944,
+  "type" : 4,
+  "src" : "$media$2120944.jpg",
+  "icon" : "$media$2120944.jpg",
+  "label" : "Organigramme.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:02:50",
+  "lastUpdateDate" : "2024-06-25 14:02:50",
+  "beginDate" : "2024-06-25 14:02:50",
+  "version" : 0,
+  "name" : "organigramme.jpg",
+  "parent" : 2120929,
+  "originalFile" : "2120944.jpg",
+  "originalFileSize" : 510756,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2120944" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "resolution" : "1920x1430"
+}

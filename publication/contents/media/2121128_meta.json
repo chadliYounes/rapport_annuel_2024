@@ -1,0 +1,39 @@
+{
+  "id" : 2121128,
+  "type" : 5,
+  "src" : "$media$2121128.mp4",
+  "icon" : "$media$2121128/cover.jpg",
+  "label" : "L’accompagnement des EHPAD.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 15:16:57",
+  "lastUpdateDate" : "2024-06-25 15:16:58",
+  "beginDate" : "2024-06-25 15:16:57",
+  "version" : 1,
+  "name" : "l’accompagnement-des-ehpad.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121128.mp4",
+  "originalFileSize" : 63936440,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121128" : "p_2121128"
+  },
+  "resolutions" : {
+    "p_2121128" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 1280,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 2220995,
+  "duration" : 230.133,
+  "resolution" : "607x1080",
+  "status" : "LIVE"
+}

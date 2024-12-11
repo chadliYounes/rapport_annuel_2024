@@ -1,0 +1,15 @@
+<div class="menu-summary-aside-v2">
+    {{exists summaryList}}
+    <div class="summary-content-aside-v2">
+        <div class="menu-container-v2">
+            <!-- Level 1 Menu -->
+            <div class="menu-level-v2" data-level="1">
+                <div class="summary-aside-label-v2">{{localePlugin("menu_summary")}}</div>
+                {{each(i, page) summaryList}}
+                    {{templatePlugin('summaryAsideItemV2', { "page": page })}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/exists}}
+</div>

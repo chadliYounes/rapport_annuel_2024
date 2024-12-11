@@ -1,0 +1,39 @@
+{
+  "id" : 2122992,
+  "type" : 5,
+  "src" : "$media$2122992.mp4",
+  "icon" : "$media$2122992/cover.jpg",
+  "label" : "Vidéo du département de Loire-Atlantique sur les métiers de l’autonomie.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-28 06:46:45",
+  "lastUpdateDate" : "2024-06-28 06:46:46",
+  "beginDate" : "2024-06-28 06:46:45",
+  "version" : 1,
+  "name" : "video-du-departement-de-loire-atlantique-sur-les-metiers-de-l’autonomie.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2122992.mp4",
+  "originalFileSize" : 9515812,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2122992" : "p_2122992"
+  },
+  "resolutions" : {
+    "p_2122992" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1892717,
+  "duration" : 40.078,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

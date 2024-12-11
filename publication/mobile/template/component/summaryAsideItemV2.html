@@ -1,0 +1,12 @@
+<div class="menu-item-v2" data-page="{{page.gotopage}}">
+    <div class="menu-item-text-v2">{{page.textContent}}</div>
+    {{if page.items.length}}
+    <div class="menu-item-arrow-v2">{{iconPlugin('arrow','')}}</div>
+    <!-- Subitems are nested inside this container -->
+    <div class="menu-subitems-v2 hidden">
+        {{each(i, subpage) page.items}}
+            {{templatePlugin('summaryAsideItemV2', { "page": subpage })}}
+        {{/each}}
+    </div>
+    {{/if}}
+</div>

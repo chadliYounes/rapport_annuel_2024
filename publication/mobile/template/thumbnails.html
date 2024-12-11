@@ -1,0 +1,94 @@
+<div class="webpub-thumbnails-list__menu">
+  {{if w.Param.isPhone}}
+
+      <select class="webpub-thumbnails-list__menu-select">
+        <option data-filter-bookmarks="none" value="{{localePlugin('menu_thumbnail')}}">{{localePlugin("menu_thumbnail")}}</option>
+        <option data-filter-bookmarks="favorite" value="{{localePlugin('favorites_selection')}}">
+          {{localePlugin("favorites_selection")}}</option>
+        {{if sharedByFilter}}
+          <option data-filter-bookmarks="sharedBy" value="{{localePlugin('favorited_selection')}}">{{localePlugin("favorited_selection")}}</option>
+        {{/if}}
+      </select>
+      <div class="webpub-thumbnails-list__menu-icon-select">
+        {{iconPlugin('triangle-1-v4', 'webpub-thumbnails-list__menu-icon', '#8c8c8c')}}
+      </div>
+  {{else}}
+
+    <div class="webpub-thumbnails-list__menu-item" data-filter-bookmarks="none">{{localePlugin("menu_thumbnail")}}</div>
+    <div class="webpub-thumbnails-list__menu-item" data-filter-bookmarks="favorite">
+      {{localePlugin("favorites_selection")}}</div>
+
+    {{if sharedByFilter}}
+      <div class="webpub-thumbnails-list__menu-item" data-filter-bookmarks="sharedBy">{{localePlugin("favorited_selection")}}</div>
+    {{/if}}
+
+  {{/if}}
+  <div class="webpub-thumbnails-list__menu-item clear-favorites {{if favorited.length > 0}}visible{{/if}}">
+    {{localePlugin("clear_favorited_selection")}}
+    {{iconPlugin('favorite-clear-v4', 'clear-favorites-icon')}}
+    {{iconPlugin('favorite-clear-hover-v4', 'clear-favorites-icon__hover')}}</div>
+</div>
+
+{{if chaptersConfig.items.length !== 0}}
+  <div class="webpub-thumbnails-list__chapters">
+    {{templatePlugin( 'menuItem-chapters', chaptersConfig, true )}}
+  </div>
+{{/if}}
+
+<div class="webpub-thumbnails-list__wrapper">
+  <ul class="webpub-thumbnails-list">
+
+    {{if thumbnailItems.length === 0 }}
+      <div class="webpub-thumbnails-list__empty-wrapper">
+        <div class="webpub-thumbnails-list__empty-icon">
+          {{iconPlugin('no-content-bold-v4', '', '#8c8c8c')}}
+        </div>
+        <div class="webpub-thumbnails-list__empty">
+          <p class="webpub-thumbnails-list__empty-title">{{localePlugin("favorites_empty")}}</p>
+          <p class="webpub-thumbnails-list__empty-subtitle">{{localePlugin("favorites_empty_subtitle")}}</p>
+        </div>
+
+      </div>
+    {{/if}}
+
+    {{each(i,thumbnailItem) thumbnailItems}}
+      {{if thumbnailItem.type === "chapter"}}
+        {{if thumbnailItem.chapter.page != 1}}
+            </ul>
+            <ul class="webpub-thumbnails-list">
+        {{/if}}
+        <li class="webpub-thumbnails-list__title" data-page={{thumbnailItem.chapter.page}} style="font-size: {{thumbnailItem.chapter.size}}px; color: {{thumbnailItem.chapter.color}};">
+          {{thumbnailItem.chapter.label}}
+        </li>
+      {{else}}
+        <li class="webpub-thumbnails-list__item webpub-toast-favorite__item-data {{if webpublicationNamespace.Main.pageManager.getCurrent() === thumbnailItem.page}} current{{/if}}" data-page="{{thumbnailItem.page}}">
+          <img class="webpub-thumbnails-list__thumbnail" src="{{thumbnailItem.image}}" />
+          <div class="webpub-thumbnails-list__pagenumber-wrapper{{if favorited.indexOf(thumbnailItem.page.toString()) !== -1}} webpub-data-item--favorited{{/if}}" data-favorite="{{thumbnailItem.page}}">
+            <div class="webpub-thumbnails-list__pagenumber-favorite">
+              {{webpublicationNamespace.Utils.byOffsetIndex(thumbnailItem.page)}}
+            </div>
+              <div class="webpub-thumbnails-list__pagenumber-icon-wrapper">
+                  {{iconPlugin('favorite-v4', 'webpub-thumbnails-list__pagenumber-icon', '#8c8c8c')}}
+                  {{iconPlugin('favorite-bold-v4', 'webpub-thumbnails-list__pagenumber-icon-checked', '#ffc300')}}
+              </div>
+          </div>
+        </li>
+      {{/if}}
+    {{/each}}
+  </ul>
+</div>
+
+<div
+  class="webpub-action-bar__wrapper-display{{if actionBarType !== 'none' && thumbnailItems.length !== 0}} webpub-action-bar__wrapper-display-visible{{/if}}">
+  {{if actionBarType === 'download'}}
+    {{templatePlugin( 'actionBar',{ "itemLeftText": localePlugin("share_pdf"), "itemLeftChecked": true  } ) }}
+  {{/if}}
+  {{if actionBarType === 'share'}}
+    {{if hasDownloadButton}}
+      {{templatePlugin( 'actionBar',{ "itemLeftText": localePlugin("share_online"), "itemRightText": localePlugin("share_pdf") } ) }}
+    {{else}}
+      {{templatePlugin( 'actionBar',{ "itemLeftText": localePlugin("share_online") } ) }}
+    {{/if}}
+    
+  {{/if}}
+</div>

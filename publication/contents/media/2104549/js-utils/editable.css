@@ -1,0 +1,28 @@
+#uprez-bar {
+	position: relative;
+	min-height: 35px;
+	background-color: #212629;
+	color: #fff;
+}
+
+#uprez-bar button {
+	position: absolute;
+	top: -5px;
+	right: 20px;
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	color: #ffffff;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(45deg);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	outline: none;
+}
+
+/* These style is needed for proper color of underline */
+[data-uprez-text] .rte-underline .rte-font-color {
+	text-decoration: underline !important;
+}

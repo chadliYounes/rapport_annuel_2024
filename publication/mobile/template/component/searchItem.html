@@ -1,0 +1,14 @@
+<div class="search__item" data-page="{{page}}" data-containerParentId="{{containerParentId}}"
+  data-containerId="{{containerId}}">
+  <div class="search__item-page">
+    {{webpublicationNamespace.Utils.prodTools.getWordLangueByIndex("label_page")}}
+    {{displayNumber}}
+    {{if isAnimationState}}
+      | {{webpublicationNamespace.Utils.prodTools.getWordLangueByIndex("animation_popup")}}
+    {{/if}}
+    {{if label}}
+      - {{label}}
+    {{/if}}
+  </div>
+  <div class="search__item-string">{{string}}</div>
+</div>

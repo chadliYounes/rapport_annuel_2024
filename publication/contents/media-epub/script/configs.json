@@ -1,0 +1,361 @@
+{
+  "generalData" : {
+    "bgStyle" : { },
+    "editablePublication" : { },
+    "activePageOffset" : 45
+  },
+  "pagesData" : [ {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundMedia" : {
+          "relUrl" : "${media}2091521.webp",
+          "label" : "Home-CN.jpg",
+          "genericItemId" : 9101756,
+          "globalId" : 2091521,
+          "type" : "IMAGE"
+        }
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : true,
+    "showAloneSide" : "right",
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundMedia" : {
+          "relUrl" : "${media}2092475.mp4",
+          "label" : "1035-142621331.mp4",
+          "genericItemId" : 9105394,
+          "globalId" : 2092475,
+          "type" : "MOVIE"
+        }
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : true,
+    "showAloneSide" : "left",
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundMedia" : {
+          "relUrl" : "${media}2120553.jpg",
+          "label" : "Sommaire.jpg",
+          "genericItemId" : 9270295,
+          "globalId" : 2120553,
+          "type" : "IMAGE"
+        }
+      }
+    },
+    "isTransparent" : false,
+    "showAlone" : true,
+    "showAloneSide" : "right",
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundMedia" : {
+          "relUrl" : "${media}2091581.webp",
+          "label" : "BG-CN-Chap1.jpg",
+          "genericItemId" : 9102786,
+          "globalId" : 2091581,
+          "type" : "IMAGE"
+        }
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : true,
+    "showAloneSide" : "right",
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundMedia" : {
+          "relUrl" : "${media}2117911.jpg",
+          "label" : "Chapter2.jpg",
+          "genericItemId" : 9256998,
+          "globalId" : 2117911,
+          "type" : "IMAGE"
+        }
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : true,
+    "showAloneSide" : "right",
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundMedia" : {
+          "relUrl" : "${media}2118654.jpg",
+          "label" : "Chapter3.jpg",
+          "genericItemId" : 9262678,
+          "globalId" : 2118654,
+          "type" : "IMAGE"
+        }
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : true,
+    "showAloneSide" : "right",
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : true,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundMedia" : {
+          "relUrl" : "${media}2120285.jpg",
+          "label" : "Chapter4.jpg",
+          "genericItemId" : 9269414,
+          "globalId" : 2120285,
+          "type" : "IMAGE"
+        }
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : true,
+    "showAloneSide" : "right",
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : false,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : { },
+    "isTransparent" : false,
+    "showAlone" : false,
+    "height" : 1450
+  }, {
+    "bgStyle" : {
+      "epubStyle" : {
+        "backgroundColor" : "rgba(131, 208, 245, 1.0)"
+      }
+    },
+    "isTransparent" : true,
+    "showAlone" : true,
+    "showAloneSide" : "center",
+    "height" : 1450
+  } ],
+  "pluginVersion" : "3.63.3"
+}

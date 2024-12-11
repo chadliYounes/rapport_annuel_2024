@@ -1,0 +1,39 @@
+{
+  "id" : 2121046,
+  "type" : 5,
+  "src" : "$media$2121046.mp4",
+  "icon" : "$media$2121046/cover.jpg",
+  "label" : "Vidéo terrain DUI – ADAPEI de l’Orne.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:47:47",
+  "lastUpdateDate" : "2024-06-27 14:36:39",
+  "beginDate" : "2024-06-25 14:47:47",
+  "version" : 2,
+  "name" : "video-terrain-dui---adapei-de-l’orne.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121046.mp4",
+  "originalFileSize" : 42463516,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121046" : "p_2121046"
+  },
+  "resolutions" : {
+    "p_2121046" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1292692,
+  "duration" : 262.456,
+  "resolution" : "1280x720",
+  "status" : "LIVE"
+}

@@ -1,0 +1,48 @@
+{
+  "id" : 2091581,
+  "type" : 4,
+  "src" : "$media$2091581.webp",
+  "icon" : "$media$2091581.webp",
+  "label" : "Chapter1.jpg",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 06:25:35",
+  "lastUpdateDate" : "2024-06-20 13:01:12",
+  "beginDate" : "2024-06-11 06:25:35",
+  "version" : 3,
+  "name" : "chapter1.jpg.webp",
+  "parent" : 2117910,
+  "originalFile" : "2091581.webp",
+  "originalFileSize" : 67166,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2091581" : "webp"
+  },
+  "resolutions" : {
+    "webp" : {
+      "supported" : [ "webp" ],
+      "sizes" : [ {
+        "width" : 1024,
+        "height" : 0,
+        "box" : true,
+        "extension" : "webp",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "webp",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "webp",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "resolution" : "2000x1125"
+}

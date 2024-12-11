@@ -1,0 +1,54 @@
+{
+  "id" : 2108999,
+  "type" : 4,
+  "src" : "$media$2108999.png",
+  "icon" : "$media$2108999.png",
+  "label" : "cn-logo.png",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 08:59:36",
+  "lastUpdateDate" : "2024-07-01 06:40:44",
+  "beginDate" : "2024-06-11 08:59:36",
+  "version" : 2,
+  "name" : "cn-logo.png",
+  "parent" : 2108788,
+  "originalFile" : "2108999.png",
+  "originalFileSize" : 6150,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2108999" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "resolution" : "195x179"
+}

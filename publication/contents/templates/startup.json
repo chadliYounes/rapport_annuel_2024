@@ -1,0 +1,51 @@
+{
+  "reader" : {
+    "type" : "html",
+    "mode" : "3d",
+    "configurationVersion" : 2
+  },
+  "ui" : {
+    "paging" : {
+      "mode" : [ "counter", "vertical" ]
+    },
+    "menu" : {
+      "mode" : [ "aside", "topnav" ],
+      "topnav" : {
+        "display" : "sticky"
+      }
+    },
+    "theme" : {
+      "mode" : [ "v4" ],
+      "lateralArrows" : "rounded"
+    },
+    "pageToast" : {
+      "enabled" : [ "desktop", "tablet", "smartphone" ]
+    }
+  },
+  "uiDesktop" : {
+    "menu" : {
+      "mode" : [ "aside", "topnav" ]
+    },
+    "paging" : {
+      "mode" : [ "lateral", "counter", "vertical" ],
+      "lateral" : {
+        "display" : "sticky"
+      }
+    }
+  },
+  "uiTab" : {
+    "menu" : {
+      "mode" : [ "aside", "topnav" ]
+    }
+  },
+  "core" : {
+    "viewer" : "v4",
+    "viewerDirection" : "vertical",
+    "verticalArrowPosition" : "left",
+    "format" : [ "epub-HTML" ],
+    "mode" : [ "html" ]
+  },
+  "vendor" : {
+    "swiffy" : "7.3"
+  }
+}

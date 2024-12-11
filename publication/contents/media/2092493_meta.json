@@ -1,0 +1,39 @@
+{
+  "id" : 2092493,
+  "type" : 5,
+  "src" : "$media$2092493.mp4",
+  "icon" : "$media$2092493/cover.jpg",
+  "label" : "Decouvrez%20Ucanss%20avec%20Romain%20Responsable%20Prevision%20Repartition%20et%20Suivi%20des%20financements%20%5BTubeRipper.com%5D.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 06:25:37",
+  "lastUpdateDate" : "2024-06-11 06:25:37",
+  "beginDate" : "2024-06-11 06:25:37",
+  "version" : 1,
+  "name" : "decouvrez20ucanss20avec20romain20responsable20prevision20repartition20et20suivi20des20financements205btuberipper.com5d.mp4",
+  "parent" : 2108788,
+  "originalFile" : "2092493.mp4",
+  "originalFileSize" : 10158014,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2092493" : "p_2092493"
+  },
+  "resolutions" : {
+    "p_2092493" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 911859,
+  "duration" : 88.700156,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

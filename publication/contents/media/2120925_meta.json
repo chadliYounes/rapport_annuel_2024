@@ -1,0 +1,39 @@
+{
+  "id" : 2120925,
+  "type" : 5,
+  "src" : "$media$2120925.mp4",
+  "icon" : "$media$2120925/cover.jpg",
+  "label" : "Intégration des nouveaux objectifs gouvernementaux de sobriété énergétique au plan de dev durable 20-23.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 13:56:26",
+  "lastUpdateDate" : "2024-06-25 13:56:27",
+  "beginDate" : "2024-06-25 13:56:26",
+  "version" : 1,
+  "name" : "integration-des-nouveaux-objectifs-gouvernementaux-de-sobriete-energetique-au-plan-de-dev-durable-20-23.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2120925.mp4",
+  "originalFileSize" : 55365098,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2120925" : "p_2120925"
+  },
+  "resolutions" : {
+    "p_2120925" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1018868,
+  "duration" : 434.26,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

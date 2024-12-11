@@ -1,0 +1,39 @@
+{
+  "id" : 2121014,
+  "type" : 5,
+  "src" : "$media$2121014.mp4",
+  "icon" : "$media$2121014/cover.jpg",
+  "label" : "Itw de Dominique Libault.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:21:48",
+  "lastUpdateDate" : "2024-06-25 14:21:49",
+  "beginDate" : "2024-06-25 14:21:48",
+  "version" : 1,
+  "name" : "itw-de-dominique-libault.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121014.mp4",
+  "originalFileSize" : 14700954,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121014" : "p_2121014"
+  },
+  "resolutions" : {
+    "p_2121014" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1155331,
+  "duration" : 101.518,
+  "resolution" : "720x720",
+  "status" : "LIVE"
+}

@@ -1,0 +1,39 @@
+{
+  "id" : 2121110,
+  "type" : 5,
+  "src" : "$media$2121110.mp4",
+  "icon" : "$media$2121110/cover.jpg",
+  "label" : "Investir dans les EHPAD.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:58:36",
+  "lastUpdateDate" : "2024-06-25 14:58:37",
+  "beginDate" : "2024-06-25 14:58:36",
+  "version" : 1,
+  "name" : "investir-dans-les-ehpad.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121110.mp4",
+  "originalFileSize" : 62501342,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121110" : "p_2121110"
+  },
+  "resolutions" : {
+    "p_2121110" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 640,
+        "height" : 360,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 408274,
+  "duration" : 1224.132734,
+  "resolution" : "640x360",
+  "status" : "LIVE"
+}

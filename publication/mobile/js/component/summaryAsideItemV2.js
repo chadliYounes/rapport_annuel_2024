@@ -1,0 +1,1 @@
+"use strict";!function(e){e.Class.TemplateManager.addComponent("summaryAsideItemV2",function(e){})}(webpublicationNamespace);

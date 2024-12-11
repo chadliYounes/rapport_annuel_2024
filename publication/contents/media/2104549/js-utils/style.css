@@ -1,0 +1,18 @@
+body #wpWrapper {
+	opacity: 0;
+}
+body.webpublication-rescaled #wpWrapper {
+	opacity: 1;
+}
+
+body #wpWrapper,
+body:not(.webpublication-responsive) .pf:first-of-type {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+body.webpublication-responsive #wpWrapper {
+	position: relative;
+	max-width: 100%;
+}

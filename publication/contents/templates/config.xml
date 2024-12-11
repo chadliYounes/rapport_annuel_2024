@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+	<configs>
+		<modules>
+			<!-- for the mergeservice url, put the corresponding server url i.e : "asp-cn.secure-zone.net" where the pub is stored -->
+			<pdf mergeservice="$managerHost$/services/rest/playerGateway/pdfmerge"/>
+			<email service="$managerHost$/services/rest/playerGateway/sendmail"/>
+		</modules>
+		<scrollBar>
+			<general useArrows="false"/>
+		</scrollBar>
+		<thumbnails>
+			<mode value="newSkin"/>
+		</thumbnails>
+		<!-- 		<drive>
+			<padding top="20" left="50" />
+			<align value="tl" />
+			<item width="150" height="150" newRenderer="true" ignoreBack="true" gapLine="60" gapColumn="40" />
+			<exclude>
+				<item id="details" />
+				<item id="checkbox" />
+			</exclude>
+		</drive> -->
+		
+		<gallery>
+			<padding left="50" top="20"/>
+			<align value="tl"/>
+			<item gapColumn="40" gapLine="60" height="150" ignoreBack="true" newRenderer="true" width="150"/>
+			<exclude>
+				<item id="details"/>
+				<item id="checkbox"/>
+				<item id="download"/>
+			</exclude>
+		</gallery>
+		<!-- <pageLayout value="single"/> -->
+		<viewerType value="2d"/>
+		<search>
+			<autoClose value="true"/>
+		</search>
+		<menubutton>
+			<brightness value="-0.5"/>
+		</menubutton>
+		<summary>
+			<autoClose value="true"/>
+		</summary>
+		<bookmarks lib_id="main_lib" symbol_id="pagemark"/>
+		<deepLinking value="true"/>
+		<driveScrollbar>
+<general style="driveScrollbar"/>
+</driveScrollbar>
+		<flipBook>
+			<sound enable="true"/>
+		</flipBook>
+		<pageLayoutHTML value="best"/>
+	<pageLayout value="best"/>
+</configs>
+</root>

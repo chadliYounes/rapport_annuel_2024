@@ -1,0 +1,15 @@
+{
+  "appearance" : null,
+  "fitMode" : "CENTERED",
+  "disabled-appearance" : {
+    "style" : "FULLSCREEN",
+    "width" : "800px",
+    "height" : "800px",
+    "backgroundColor" : "#f6f6f6",
+    "backgroundOpacity" : "100%",
+    "barBackgroundColor" : "#f6f6f6",
+    "barBackgroundOpacity" : "100%",
+    "xButtonColor" : "#f6f6f6",
+    "customEnabled" : false
+  }
+}

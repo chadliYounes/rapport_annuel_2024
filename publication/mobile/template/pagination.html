@@ -1,0 +1,73 @@
+{{if type === "lateral"}}
+
+  {{if prevNext === true || firstLast === true}}
+    <div
+      class="webpub-pagination__lateral-left webpub-pagination__lateral-containers fadeTransitionFast
+      {{theme}}
+      {{if alwaysVisible === false}}opacity-zero{{/if}}"
+    >
+      {{if prevNext === true}}
+        <div
+          class="webpub-pagination__lateral-arrow webpub-pagination__lateral-arrow-prev webpub-pagination__lateral-arrows-nextprev
+          {{if prevNext === true && firstLast === false}}webpub-pagination__lateral-arrow-big{{/if}}"
+        >
+          {{iconPlugin('left-' + theme, 'webpub-pagination__lateral-arrows-nextprev-icon webpub-pagination__lateral-arrows-icon')}}
+        </div>
+      {{/if}}
+      {{if firstLast === true}}
+        <div
+          class="webpub-pagination__lateral-arrow webpub-pagination__lateral-arrow-first webpub-pagination__lateral-arrows-firstlast
+          {{if prevNext === false && firstLast === true}}webpub-pagination__lateral-arrow-big{{/if}}"
+        >
+          {{iconPlugin('first-' + theme, 'webpub-pagination__lateral-arrows-firstlast-icon webpub-pagination__lateral-arrows-icon')}}
+        </div>
+      {{/if}}
+    </div>
+    <div
+      class="webpub-pagination__lateral-right webpub-pagination__lateral-containers fadeTransitionFast
+      {{theme}}
+      {{if alwaysVisible === false}}opacity-zero{{/if}}"
+    >
+      {{if prevNext === true}}
+        <div
+          class="webpub-pagination__lateral-arrow webpub-pagination__lateral-arrow-next webpub-pagination__lateral-arrows-nextprev
+          {{if prevNext === true && firstLast === false}}webpub-pagination__lateral-arrow-big{{/if}}"
+        >
+          {{iconPlugin('left-' + theme, 'webpub-pagination__lateral-arrows-nextprev-icon webpub-pagination__lateral-arrows-icon reversed')}}
+        </div>
+      {{/if}}
+      {{if firstLast === true}}
+        <div
+          class="webpub-pagination__lateral-arrow webpub-pagination__lateral-arrow-last webpub-pagination__lateral-arrows-firstlast
+          {{if prevNext === false && firstLast === true}}webpub-pagination__lateral-arrow-big{{/if}}"
+        >
+          {{iconPlugin('first-' + theme, 'webpub-pagination__lateral-arrows-firstlast-icon webpub-pagination__lateral-arrows-icon reversed')}}
+        </div>
+      {{/if}}
+    </div>
+
+  {{/if}}
+
+{{/if}}
+
+
+{{if type === "vertical"}}
+
+<div class="webpub-pagination__vertical-container webpub-pagination__vertical-backToTop hide">
+  {{iconPlugin('arrow', 'webpub-pagination__vertical-arrow')}}
+  <div class="backToTop-tooltip">
+    <div class="triangle"></div>
+    <span>{{localePlugin("back_to_the_top")}}</span>
+  </div>
+</div>
+
+<div class="webpub-pagination__vertical-container webpub-pagination__vertical-center hide">
+  {{iconPlugin('arrow', 'webpub-pagination__vertical-arrow reversed')}}
+</div>
+
+<div class="webpub-pagination__vertical-container webpub-pagination__vertical-side {{position}} hide">
+  {{iconPlugin('arrow', 'webpub-pagination__vertical-arrow hide')}}
+  {{iconPlugin('arrow', 'webpub-pagination__vertical-arrow reversed hide')}}
+</div>
+
+{{/if}}

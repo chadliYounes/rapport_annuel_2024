@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0.0">
+  <contents pages_count="46" shift="0">
+    <content id="swf" path="${contents}${pages}%num%/page.swf" width="x" height="y"/>
+    <content id="alt" path="${contents}${pages}%num%/alt.swf" width="x" height="y"/>
+    <content path="${contents}text_epub.xml" id="text"/>
+    <content id="low" path="${contents}${pages}%num%/489x582.jpg" width="x" height="y"/>
+    <content path="${contents}${pages}%num%/links.xml" id="links"/>
+    <content id="thumbnails" path="${epub_folder}pages/%num%/diapo.jpg" width="x" height="y"/>
+    <content id="thumbnails_xdpi" path="${epub_folder}pages/%num%/diapoxdpi.jpg" width="x" height="y"/>
+    <content id="zoom" path="${contents}${pages}%num%/1024x0.jpg" width="1024" height="1450"/>
+    <content id="zoom_hd" path="${contents}${pages}%num%/2048x0.jpg" width="x" height="y"/>
+    <content path="${contents}pdfweb.pdf" id="full_pdf"/>
+    <content path="${contents}${pages}%num%/page.pdf" id="pdf"/>
+    <content path="${contents}index.xml" id="summary"/>
+    <content path="${contents}${pages}%num%/page.svg" id="svg"/>
+    <content id="epub-HTML" path="${epub_folder}pages/%num%/page.html" width="1024" height="1450"/>
+  </contents>
+  <variables>
+    <!-- global variables -->
+    <variable id="client_id" value="138986"/>
+    <variable id="id" value="2091060"/>
+    <variable id="contents" value="~/contents/"/>
+    <variable id="root" value=".."/>
+    <variable id="system" value="$contents$lib/"/>
+    <variable id="template" value="${contents}templates/"/>
+    <variable id="templates" value="${contents}templates/"/>
+    <variable id="manager_host" value="https://fr.adminzone-secure.net"/>
+    <!-- content variables -->
+    <variable id="locale" value="fr_FR.UTF-8"/>
+    <variable id="content_lib" value="${contents}lib/"/>
+    <variable id="media" value="${contents}media/"/>
+    <variable id="pages" value="pages/"/>
+    <variable id="lib" value="${root}lib/"/>
+    <variable id="locale_folder" value="${root}locale/"/>
+    <variable id="version" value="V3.63"/>
+    <variable id="epub_folder" value="${contents}media-epub/"/>
+    <variable id="image_quality_folder_hq" value="image"/>
+    <variable id="image_quality_folder_lq" value="image_lq"/>
+    <variable id="asp_url" value="https://fr.zone-secure.net"/>
+  </variables>
+</root>

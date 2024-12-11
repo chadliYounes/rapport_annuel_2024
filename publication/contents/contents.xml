@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0.0">
+  <contents shift="0" prefix="page" pages_nr="3" padding="0">
+    <content height="388" path="$contents$$pages$%num%/" width="496" ext="swf" id="swf" type="swf"/>
+    <content type="swf" path="$contents$$pages$%num%/" width="496" ext="swf" height="388" prefix="alt" id="alt"/>
+    <content path="$contents$" prefix="text" asset="true" ext="xml" id="text" type="xml"><![CDATA[text]]></content>
+    <content path="$contents$" prefix="index" asset="true" ext="xml" id="summary" type="xml"><![CDATA[index]]></content>
+    <content type="jpg" path="$contents$$pages$%num%/" width="489" ext="jpg" height="383" prefix="489x582" id="Low"/>
+    <content type="xml" path="$contents$$pages$%num%/" ext="xml" prefix="links" id="links"/>
+    <content type="jpg" path="$contents$$pages$%num%/" width="130" ext="jpg" height="101" prefix="diapo" id="thumbnails"/>
+    <content type="jpg" path="$contents$$pages$%num%/" width="1024" ext="jpg" height="802" prefix="1024x0" id="Zoom"/>
+    <content type="jpg" path="$contents$$pages$%num%/" width="2048" ext="jpg" height="802" prefix="2048x0" id="zoomhd"/>
+    <content id="fullPdf" ext="pdf" path="$contents$" type="pdf"><![CDATA[pdfweb]]></content>
+    <content id="pdf" ext="pdf" path="$contents$$pages$%num%/" type="pdf"/>
+    <content type="jpg" path="$contents$$pages$%num%/" width="489" ext="jpg" height="383" prefix="NT489x582" id="LowNoTxt"/>
+    <content type="jpg" path="$contents$$pages$%num%/" width="1024" ext="jpg" height="802" prefix="NT1024x0" id="ZoomNoTxt"/>
+    <content type="svg" path="$contents$$pages$%num%/" width="1024" ext="svg" height="802" prefix="NI1024x0" id="svgNoImg"/>
+    <content type="jpg" path="$contents$$pages$%num%/" width="91" ext="jpg" height="130" prefix="diapoxdpi" id="thumbnailsxdpi"/>
+    <content type="svg" path="$contents$$pages$%num%/" ext="svg" prefix="page" id="svg"/>
+  </contents>
+  <variables>
+    <id value="2091060"/>
+    <locale value="fr_FR.UTF-8"/>
+    <content_lib value="$contents$lib/"/>
+    <media value="$root$../../"/>
+    <gallery_xml value="gallery.xml"/>
+    <gallery value="$contents$gallery/"/>
+    <pages value="pages/"/>
+    <thumbnails value="thumbs/"/>
+    <pdf value="pdfs/"/>
+    <links value="links/"/>
+    <version value="V3.63"/>
+  </variables>
+</root>

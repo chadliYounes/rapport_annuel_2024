@@ -1,0 +1,39 @@
+{
+  "id" : 2121006,
+  "type" : 5,
+  "src" : "$media$2121006.mp4",
+  "icon" : "$media$2121006/cover.jpg",
+  "label" : "Le dernier baromètre des MDPH et la campagne MSU.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:17:05",
+  "lastUpdateDate" : "2024-06-25 14:17:06",
+  "beginDate" : "2024-06-25 14:17:05",
+  "version" : 1,
+  "name" : "le-dernier-barometre-des-mdph-et-la-campagne-msu.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121006.mp4",
+  "originalFileSize" : 11453761,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121006" : "p_2121006"
+  },
+  "resolutions" : {
+    "p_2121006" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1031918,
+  "duration" : 88.701,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

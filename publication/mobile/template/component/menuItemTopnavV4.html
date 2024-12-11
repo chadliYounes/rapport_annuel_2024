@@ -1,0 +1,33 @@
+<a
+  class="webpub-topnav-v4__type-{{name}} webpub-topnav-v4__item{{if icon.text}} webpub-topnav-v4__item--text-icon{{/if}}"
+  data-section="item" data-menu="{{name}}"
+  {{if label !=="" }}data-tooltip="{{label}}"{{/if}}
+  {{exists data}}{{exists data.option}}data-option="{{data.option}}"{{/exists}}{{/exists}}
+  {{exists data}}
+    {{exists data.attributes}}
+      {{each(attributeName,attributeValue) data.attributes}}
+        data-{{attributeName}}="{{attributeValue}}" 
+      {{/each}}
+    {{/exists}}
+  {{/exists}}
+  {{exists alternativeIcon}}data-alternativeIcon="true"{{/exists}}
+  {{exists alternativeLabel}}data-alternativeLabel="true"{{/exists}}
+>
+  {{if icon}}
+    {{if icon.url}}
+      <span class="webpub-topnav-v4__item-icon-url {{if icon.noMargin}}webpub-topnav-v4__item-icon-url--noMargin{{/if}}">
+        <img class="webpub-topnav-v4__item-icon-url-image" src="{{icon.url}}" data-section="icon"
+          data-icon="{{icon.url}}"
+        />
+      </span>
+    {{else icon.text}}
+      <span class="webpub-topnav-v4__item-icon" data-section="title">{{icon.text}}</span>
+    {{else}}
+      <span class="webpub-topnav-v4__item-icon" data-section="icon">{{iconPlugin(icon + "-v4", "")}}</span>
+    {{/if}}
+  {{/if}}
+  {{if !icon || !icon.text}}
+    <span class="webpub-topnav-v4__item-text" data-section="title">{{label}}</span>
+  {{/if}}
+  <span class="webpub-topnav-v4__item-badge" data-section="badge">{{badge}}</span>
+</a>

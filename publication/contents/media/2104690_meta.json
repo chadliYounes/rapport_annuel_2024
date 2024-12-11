@@ -1,0 +1,39 @@
+{
+  "id" : 2104690,
+  "type" : 5,
+  "src" : "$media$2104690.mp4",
+  "icon" : "$media$2104690/cover.jpg",
+  "label" : "CNSA%20retour%20sur%20lann%C3%A9e%202023%20avec%20Virginie%20Magnant%20et%20Jean-Ren%C3%A9%20Lecerf%20%5BTubeRipper.com%5D.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 06:25:36",
+  "lastUpdateDate" : "2024-06-11 06:25:36",
+  "beginDate" : "2024-06-11 06:25:36",
+  "version" : 1,
+  "name" : "cnsa20retour20sur20lannc3a9e20202320avec20virginie20magnant20et20jean-renc3a920lecerf205btuberipper.com5d.mp4",
+  "parent" : 2108788,
+  "originalFile" : "2104690.mp4",
+  "originalFileSize" : 47597396,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2104690" : "p_2104690"
+  },
+  "resolutions" : {
+    "p_2104690" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1095992,
+  "duration" : 347.277625,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

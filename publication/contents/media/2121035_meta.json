@@ -1,0 +1,39 @@
+{
+  "id" : 2121035,
+  "type" : 5,
+  "src" : "$media$2121035.mp4",
+  "icon" : "$media$2121035/cover.jpg",
+  "label" : "Vidéo terrain DUI – Les chênes verts.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 14:43:37",
+  "lastUpdateDate" : "2024-06-25 14:43:38",
+  "beginDate" : "2024-06-25 14:43:37",
+  "version" : 1,
+  "name" : "video-terrain-dui---les-chenes-verts.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121035.mp4",
+  "originalFileSize" : 34440835,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121035" : "p_2121035"
+  },
+  "resolutions" : {
+    "p_2121035" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 1280,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1103566,
+  "duration" : 249.127,
+  "resolution" : "1080x607",
+  "status" : "LIVE"
+}

@@ -1,0 +1,39 @@
+{
+  "id" : 2122991,
+  "type" : 5,
+  "src" : "$media$2122991.mp4",
+  "icon" : "$media$2122991/cover.jpg",
+  "label" : "Reportage vidéo de Brut. sur le métier d’aide à domicile et la plateforme Go Sens.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-28 06:46:43",
+  "lastUpdateDate" : "2024-06-28 06:46:44",
+  "beginDate" : "2024-06-28 06:46:43",
+  "version" : 1,
+  "name" : "reportage-video-de-brut.-sur-le-metier-d’aide-a-domicile-et-la-plateforme-go-sens.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2122991.mp4",
+  "originalFileSize" : 41638801,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2122991" : "p_2122991"
+  },
+  "resolutions" : {
+    "p_2122991" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 1280,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 2199415,
+  "duration" : 151.209,
+  "resolution" : "607x1080",
+  "status" : "LIVE"
+}

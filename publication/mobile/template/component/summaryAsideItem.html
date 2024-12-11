@@ -1,0 +1,12 @@
+<ul class="summary-aside-content__list">
+    <li class="summary-aside-content__list-item focusable depth-{{page.level}} summary-aside-content__link" data-page="{{page.gotopage}}">
+        <div class="summary-aside-content__arrow {{if page.items.length}}displayed{{/if}}">{{iconPlugin('arrow-down','')}}</div>
+        <div class="summary-aside-content__list-item-text {{page.itemTextClass}}">{{page.textContent}}</div>
+    </li>
+
+    {{each(i,subpage) page.items}}
+    <ul class="summary-aside-content__list hidden">
+        {{templatePlugin('summaryAsideItem', { "page": subpage }) }}
+    </ul>
+    {{/each}}
+</ul>

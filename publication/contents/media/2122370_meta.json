@@ -1,0 +1,39 @@
+{
+  "id" : 2122370,
+  "type" : 5,
+  "src" : "$media$2122370.mp4",
+  "icon" : "$media$2122370/cover.jpg",
+  "label" : "Romy Diop.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-27 10:15:24",
+  "lastUpdateDate" : "2024-06-27 10:15:25",
+  "beginDate" : "2024-06-27 10:15:24",
+  "version" : 1,
+  "name" : "romy-diop.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2122370.mp4",
+  "originalFileSize" : 28211296,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2122370" : "p_2122370"
+  },
+  "resolutions" : {
+    "p_2122370" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 720,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1382716,
+  "duration" : 162.912,
+  "resolution" : "720x720",
+  "status" : "LIVE"
+}

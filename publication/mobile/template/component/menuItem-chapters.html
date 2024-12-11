@@ -1,0 +1,14 @@
+<span class="menu-item-chapters__wrapper">
+  {{each(i, item) items}}
+    {{if item.type === 'tab'}}
+      <div class="menu-item-chapters__tab"
+           style="font-size: {{item.size}}px; color: {{item.color}};" data-page={{item.page}}>
+        {{item.label}}
+        <div class="menu-item-chapters__underline"
+             style="color: {{item.underline_color}}; width: {{item.underline_size}}px"></div>
+      </div>
+    {{else}}
+      <div class="menu-item-chapters__space" style="padding-left: {{item.size}}px;"></div>
+    {{/if}}
+  {{/each}}
+</span>

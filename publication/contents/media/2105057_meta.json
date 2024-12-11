@@ -1,0 +1,48 @@
+{
+  "id" : 2105057,
+  "type" : 4,
+  "src" : "$media$2105057.webp",
+  "icon" : "$media$2105057.webp",
+  "label" : "cta-sommaire.png-copy_1.webp",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 06:25:36",
+  "lastUpdateDate" : "2024-06-11 06:25:36",
+  "beginDate" : "2024-06-11 06:25:36",
+  "version" : 1,
+  "name" : "cta-sommaire.png-copy_1.webp",
+  "parent" : 2108788,
+  "originalFile" : "2105057.webp",
+  "originalFileSize" : 11614,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2105057" : "webp"
+  },
+  "resolutions" : {
+    "webp" : {
+      "supported" : [ "webp" ],
+      "sizes" : [ {
+        "width" : 1024,
+        "height" : 0,
+        "box" : true,
+        "extension" : "webp",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "webp",
+        "ignoreUpscale" : true
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "webp",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "resolution" : "2000x959"
+}

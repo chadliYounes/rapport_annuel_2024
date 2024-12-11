@@ -1,0 +1,39 @@
+{
+  "id" : 2121125,
+  "type" : 5,
+  "src" : "$media$2121125.mp4",
+  "icon" : "$media$2121125/cover.jpg",
+  "label" : "Les habitats inclusifs – vidéo Brut !.mp4",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-25 15:11:45",
+  "lastUpdateDate" : "2024-06-25 15:11:46",
+  "beginDate" : "2024-06-25 15:11:45",
+  "version" : 1,
+  "name" : "les-habitats-inclusifs---video-brut !.mp4",
+  "parent" : 2120912,
+  "originalFile" : "2121125.mp4",
+  "originalFileSize" : 56940035,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2121125" : "p_2121125"
+  },
+  "resolutions" : {
+    "p_2121125" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 1280,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "bitrate" : 1989108,
+  "duration" : 228.624,
+  "resolution" : "607x1080",
+  "status" : "LIVE"
+}

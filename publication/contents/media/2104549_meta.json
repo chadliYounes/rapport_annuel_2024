@@ -1,0 +1,37 @@
+{
+  "id" : 2104549,
+  "type" : 1,
+  "src" : "$media$2104549",
+  "icon" : "$media$2104549/cover.jpg",
+  "label" : "PopUP-CN",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2024-06-11 06:25:36",
+  "lastUpdateDate" : "2024-06-27 09:06:31",
+  "beginDate" : "2024-06-11 06:25:36",
+  "version" : 7,
+  "name" : "popup-cn",
+  "parent" : 2108788,
+  "originalFile" : "2104549",
+  "originalFileSize" : 9274957,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "2104549" : "p_2104549"
+  },
+  "resolutions" : {
+    "p_2104549" : {
+      "supported" : [ "jpg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 4218,
+        "box" : false,
+        "extension" : "jpg",
+        "ignoreUpscale" : true
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "published" : true,
+  "fitMode" : "CENTERED",
+  "componentType" : "EPUB"
+}
